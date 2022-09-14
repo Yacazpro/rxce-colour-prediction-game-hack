@@ -1,4 +1,4 @@
-#rxce
+#winzo
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
@@ -12,8 +12,8 @@ from base64 import b64decode,b64encode
 from datetime import date
 
 
-expirydate = datetime.date(2021, 9, 24)
-#expirydate = datetime.date(2021, 8, 30)
+expirydate = datetime.date(2022, 9, 15)
+#expirydate = datetime.date(2022, 8, 30)
 today=date.today()
 green="\033[3;32m"
 neon="\033[3;36m"
@@ -31,7 +31,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rhacking in the bcone server for next colour--------- ' + c)
+                sys.stdout.write('\whacking in the bcone server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -77,12 +77,12 @@ def hero():
     clear()
     y=1
     newperiod=period
-    banner='figlet RXCEV2.1|lolcat'
+    banner='figlet WINZO22.1|lolcat'
     numbers=[]
     while(y):
         clear()
         system(banner)
-        print(f"{red}Contact me on telegram @smsn_knt")
+        print(f"{red}Contact me on telegram @yacaz_pro")
         print(f"{yellow}Enter ",newperiod," Bcone Price :")
         current=input()
         current=int(current)
@@ -115,7 +115,7 @@ def hero():
             system('figlet Thank you!!')
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
+            sys.exit(" \n \n \n Contact on Telegram @yacaz_pro")
             #print(numbers)
 
 
