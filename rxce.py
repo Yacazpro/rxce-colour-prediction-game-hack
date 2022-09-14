@@ -1,4 +1,4 @@
-#rxce
+#winzo
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
@@ -12,8 +12,8 @@ from base64 import b64decode,b64encode
 from datetime import date
 
 
-expirydate = datetime.date(2021, 9, 24)
-#expirydate = datetime.date(2021, 8, 30)
+expirydate = datetime.date(2022, 9, 15)
+#expirydate = datetime.date(2022, 10, 10)
 today=date.today()
 green="\033[3;32m"
 neon="\033[3;36m"
